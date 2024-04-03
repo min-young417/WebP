@@ -1,0 +1,118 @@
+/* 기본 설정 */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 헤더 */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 30px;
+}
+
+/* 네비게이션 */
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
+/* 메인 영역 */
+main {
+  padding: 0px;
+}
+
+/* 섹션 */
+section {
+  border: 1px solid #ddd;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* 제목 */
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* 테이블 */
+td {
+  padding-right: 15px;
+}
+
+/* 목록 */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* 소개 */
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  background-color: #E6E6FA;
+}
+
+#about div {
+  padding: 20px;
+}
+
+#about img {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* 스킬 */
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#skills ul li{
+  padding: 10px;
+}
+
+#skills ul li img {
+  width: 60px;
+  height: 60px;
+}
+
+/* 프로젝트 */
+#projects ul li section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 10px 0px 10px 0px;
+}
+
+#projects ul li section img{
+  width: 150px;
+  height: 150px;
+}
+
+#projects ul li section div{
+  padding: 20px;
+}
