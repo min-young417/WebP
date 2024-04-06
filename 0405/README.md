@@ -12,6 +12,6 @@
 
 <img width="500" alt="img02" src="https://github.com/min-young417/WebP/assets/122364547/6bc55b3d-9593-48cf-959a-961ad3f80c1a">
 
-### 실행
+#### 실행
 
 https://min-young417.github.io/WebP/0405/build/
