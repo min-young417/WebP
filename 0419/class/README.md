@@ -119,7 +119,7 @@ export default function Counter() {
 ```
 <br/>  
 
-**Updating state based on the previous state**
+**Updating state based on the previous state**  
 상태(state) 안에 객체롸 배열을 만들 수 있다.  
 React에서 상태는 읽기 전용으로 간주되므로 기존 객체를 변경하는 대신 대체해야 한다.
 
@@ -137,12 +137,12 @@ createInitialTodos()의 결과는 초기 렌더에만 사용되지만, 여전히
   - 이니셜라이저 함수를 전달하지 않으므로 input에 입력할 때와 같은 모든 렌더에서 createInitialTodos 함수가 실행된다.  
   동작에서는 눈에 띄는 차이는 없지만 이 코드는 효율성이 떨어진다.
 
-**Resetting state with a key**
+**Resetting state with a key**  
 목록을 렌더링할 때 키(key) 속성을 자주 접하게 된다.  
 하지만 이는 또 다른 목적을 제공하기도 한다.  
 구성 요소에 다른 키를 전달하여 구성 요소의 상태를 재설정할 수 있다.
 
-**Storing information from previous renders**
+**Storing information from previous renders**  
 일반적으로 이벤트 핸들어에서 상태를 업데이트한다.  
 그러나 드물게 렌더링에 응답하여 상태를 조정할 수도 있다.  
 예를 들어 prop이 변경될 때 상태 변수를 변경할 수도 있다.  
